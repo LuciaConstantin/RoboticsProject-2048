@@ -8,7 +8,7 @@
 * The main utility of this game is mainly for learning. It offers a practical insight into how both software and hardware components communicate in order to create a fully functional project.   
 ## Project Description  
    A 4x4 game board is displayed on an LCD screen. The player interacts with the game using a joystick. There are four possible directions in which the tiles can move using the joystick: N(up), S(down), E(left) and W(right). By pressing the joystick button, the player can return to the previous game state, effectively undoing the last action (the last move will be reversed).  
-   ###Block diagram  
+   ### Block diagram  
    ![schema-bloc](https://github.com/user-attachments/assets/979808c8-39b6-48a6-80e5-1c6bdeff7ae8)  
    
 
