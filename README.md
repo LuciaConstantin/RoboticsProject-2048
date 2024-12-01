@@ -10,7 +10,8 @@
 
    A 4x4 game board is displayed on an LCD screen. The player interacts with the game using a joystick. There are four possible directions in which the tiles can move using the joystick: N(up), S(down), E(left) and W(right). By pressing the joystick button, the player can return to the previous game state, effectively undoing the last action (the last move will be reversed).  
    ### Block diagram  
-    ![block-diagram](https://github.com/user-attachments/assets/bf51fc60-b6ea-46a1-b6cd-142229a123c2)
+   
+![block-diagram](https://github.com/user-attachments/assets/9250e7fa-00e0-4743-8bcc-dce4486d3fe5)  
 
 ## Hardware Design  
 
