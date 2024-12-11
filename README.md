@@ -48,8 +48,7 @@
 ### Components list
 | Component  | Image | Model    | Number| More information |
 | ------------- | ------------- | -------------| -------------| -------------|
-| Breadboard  |![image](https://github.com/user-attachments/assets/55cbcf73-1f63-4177-8bd7-0ffa49542146)
- |Full-sized | 1 | |
+| Breadboard  |<img src="https://github.com/user-attachments/assets/55cbcf73-1f63-4177-8bd7-0ffa49542146" width="500" height="300" />|Full-sized | 1 | |
 | ESP32  |   | NodeMCU | 1 |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)|
 | LCD display| |ILI9488 | 1 |[Store](https://www.aliexpress.com/item/1005004804238339.html?srcSns=sns_WhatsApp&spreadType=socialShare&bizType=ProductDetail&social_params=60906366425&aff_fcid=a99f5a0b35fd44c9ba29427c56272109-1733949640719-04325-_EHL67gs&tt=MG&aff_fsk=_EHL67gs&aff_platform=default&sk=_EHL67gs&aff_trace_key=a99f5a0b35fd44c9ba29427c56272109-1733949640719-04325-_EHL67gs&shareId=60906366425&businessType=ProductDetail&platform=AE&terminal_id=c35ec2ea804245d1a09f2fcf4cb090a3&afSmartRedirect=y)|
 |Joystick|  | PS2| 1 |
