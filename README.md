@@ -46,17 +46,17 @@
 
 ## Hardware Design  
 ### Electrical diagram
-![robotica-schema-electrica](https://github.com/user-attachments/assets/ec371ee5-8eb3-4a6d-84a6-4f43d99c4263)
+<img src="https://github.com/user-attachments/assets/ec371ee5-8eb3-4a6d-84a6-4f43d99c4263" width="600" height="400" />
 
 ### Bill of materials
 | Component  | Image | Model    | Number| More information |
 | ------------- | ------------- | -------------| -------------| -------------|
-| Breadboard  |<img src="https://github.com/user-attachments/assets/55cbcf73-1f63-4177-8bd7-0ffa49542146" width="200" height="100" />|Full-sized | 1 | |
-| ESP32  | <img src="https://github.com/user-attachments/assets/026a77de-8c00-4a6d-8f2f-649a00fe299f" width="200" height="100" />  | NodeMCU | 1 |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)|
-| LCD display| <img src="https://github.com/user-attachments/assets/7055b37e-b3f8-48d7-8d5b-3e9809a03cc5" width="200" height="100" /> |ILI9488 | 1 |[Store](https://www.aliexpress.com/item/1005004804238339.html?srcSns=sns_WhatsApp&spreadType=socialShare&bizType=ProductDetail&social_params=60906366425&aff_fcid=a99f5a0b35fd44c9ba29427c56272109-1733949640719-04325-_EHL67gs&tt=MG&aff_fsk=_EHL67gs&aff_platform=default&sk=_EHL67gs&aff_trace_key=a99f5a0b35fd44c9ba29427c56272109-1733949640719-04325-_EHL67gs&shareId=60906366425&businessType=ProductDetail&platform=AE&terminal_id=c35ec2ea804245d1a09f2fcf4cb090a3&afSmartRedirect=y)|
-|Joystick|<img src="https://github.com/user-attachments/assets/0b548984-f1c7-4462-a541-aa6dd952a5d7" width="200" height="100" />  | PS2| 1 | [Web page](https://components101.com/modules/joystick-module)|
-|USB cable| <img src="https://github.com/user-attachments/assets/0eaf8059-35f7-44d0-9889-27fa78e2b5ef" width="200" height="100" />|Type C| 1 | 
-| Jumper wires|<img src="https://github.com/user-attachments/assets/13757708-58f6-4406-9dc5-f7975762d86a" width="200" height="100" /> | Male-Male, Male-Female | many |
+| Breadboard  |<img src="https://github.com/user-attachments/assets/55cbcf73-1f63-4177-8bd7-0ffa49542146" width="200" height="150" />|Full-sized | 1 | |
+| ESP32  | <img src="https://github.com/user-attachments/assets/026a77de-8c00-4a6d-8f2f-649a00fe299f" width="200" height="150" />  | NodeMCU | 1 |[Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)|
+| LCD display| <img src="https://github.com/user-attachments/assets/7055b37e-b3f8-48d7-8d5b-3e9809a03cc5" width="200" height="150" /> |ILI9488 | 1 |[Store](https://www.aliexpress.com/item/1005004804238339.html?srcSns=sns_WhatsApp&spreadType=socialShare&bizType=ProductDetail&social_params=60906366425&aff_fcid=a99f5a0b35fd44c9ba29427c56272109-1733949640719-04325-_EHL67gs&tt=MG&aff_fsk=_EHL67gs&aff_platform=default&sk=_EHL67gs&aff_trace_key=a99f5a0b35fd44c9ba29427c56272109-1733949640719-04325-_EHL67gs&shareId=60906366425&businessType=ProductDetail&platform=AE&terminal_id=c35ec2ea804245d1a09f2fcf4cb090a3&afSmartRedirect=y)|
+|Joystick|<img src="https://github.com/user-attachments/assets/0b548984-f1c7-4462-a541-aa6dd952a5d7" width="200" height="150" />  | PS2| 1 | [Web page](https://components101.com/modules/joystick-module)|
+|USB cable| <img src="https://github.com/user-attachments/assets/0eaf8059-35f7-44d0-9889-27fa78e2b5ef" width="200" height="150" />|Type C| 1 | 
+| Jumper wires|<img src="https://github.com/user-attachments/assets/13757708-58f6-4406-9dc5-f7975762d86a" width="200" height="150" /> | Male-Male, Male-Female | many |
 
 
 ## Software Design  
