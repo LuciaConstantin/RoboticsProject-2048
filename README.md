@@ -107,7 +107,7 @@
 
 ### Hardware image  
  
-<img src="https://github.com/user-attachments/assets/d70ff279-6f3f-4aad-9ca6-879dea33a8e6" width="600" height="400" />
+<img src="https://github.com/user-attachments/assets/d70ff279-6f3f-4aad-9ca6-879dea33a8e6" width="600" height="1000" />
 
 ### LCD Functionality Verification
             In order to verify if the LCD screen is functioning properly, I uploaded a test code. After compiling and uploading the code, the LCD screen displays the '2048' text. This confirms that the LCD is properly connected and the SPI protocol is working correctly.  
