@@ -23,12 +23,12 @@
 * Interfaces: In this project the ESP32 is going to communicate with the components using the next communication interfaces: SPI, ADC, and GPIO. These interfaces are used to connect various external modules like the LCD and the joystick.
 
 ### Flash memory
-            In order to store the leaderboard, I decided to use the internal memory (Flash) of the ESP32. The Flash memory will be managed using the Non-Volatile Storage (NVS) system, which allows the leaderboard data (player names and scores) to persist even after the device is powered off. The library that implements it is [Preferences.h](https://components101.com/modules/joystick-module)|. 
+            In order to store the leaderboard, I decided to use the internal memory (Flash) of the ESP32. The Flash memory will be managed using the Non-Volatile Storage (NVS) system, which allows the leaderboard data (player names and scores) to persist even after the device is powered off. The library that implements it is [Preferences.h](https://components101.com/modules/joystick-module). 
 
 * Communication: The communication interface is QSPI and is managed by the hardware.  
 
 #### LCD Display (TFT 3.5” ILI9488 SPI)  
-            Because I choose to recreate the popular 2048 game, of course I need a screen to display the grid and the blocks. I chose a 3.5-inch TFT LCD with a resolution of 480x320 pixels, driven by an ILI9488 controller. The display communicates with the microcontroller via the SPI interface, which allows for fast data transfer required for rendering complex images in real-time. To use the LCD screen I included the [#include <TFT_eSPI.h> library](https://github.com/Bodmer/TFT_eSPI)|.
+            Because I choose to recreate the popular 2048 game, of course I need a screen to display the grid and the blocks. I chose a 3.5-inch TFT LCD with a resolution of 480x320 pixels, driven by an ILI9488 controller. The display communicates with the microcontroller via the SPI interface, which allows for fast data transfer required for rendering complex images in real-time. To use the LCD screen I included the [TFT_eSPI.h library](https://github.com/Bodmer/TFT_eSPI).
 
 * Power supply: The LCD display requires a 3.3V power supply.  
 
@@ -64,6 +64,7 @@
 | Jumper wires|<img src="https://github.com/user-attachments/assets/13757708-58f6-4406-9dc5-f7975762d86a" width="200" height="150" /> | Male-Male, Male-Female | many |  
 
 ### ESP32 pins  
+![image](https://github.com/user-attachments/assets/1107771c-000d-4476-985c-88bf267c6cad)  
 
 | Pin | Functionality | Use|
 | ------------- | ------------- | -------------|
@@ -128,6 +129,13 @@
 ## Journal  
 * 26.11.2024 Project decision  
 *  1.12.2024 Creating a repository for the project on GitHub
+*  9.12.2024 Finished the hardware part of the project
+*  14.12.2024 Started writing the code for the game.
+*  16.12.2024 Update the GitHub repository with all the hardware information.
   
 ## Bibliography  
-
+[Preferences.h](https://components101.com/modules/joystick-module)  
+[TFT_eSPI.h library](https://github.com/Bodmer/TFT_eSPI)  
+[LCD information](http://www.lcdwiki.com/3.5inch_SPI_Module_ILI9488_SKU:MSP3520)
+[ESP32 information](https://www.sudo.is/docs/esphome/boards/esp32nodemcu/)
+[Joystick and esp32](https://esp32io.com/tutorials/esp32-joystick)
