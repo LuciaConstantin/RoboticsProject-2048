@@ -64,7 +64,8 @@
 | Jumper wires|<img src="https://github.com/user-attachments/assets/13757708-58f6-4406-9dc5-f7975762d86a" width="200" height="150" /> | Male-Male, Male-Female | many |  
 
 ### ESP32 pins  
-![image](https://github.com/user-attachments/assets/1107771c-000d-4476-985c-88bf267c6cad)  
+<img src="https://github.com/user-attachments/assets/1107771c-000d-4476-985c-88bf267c6cad" width="600" height="400" />
+
 
 | Pin | Functionality | Use|
 | ------------- | ------------- | -------------|
@@ -105,12 +106,13 @@
 |5|SW|Digital input pin for the joystick button (used to detect button presses)|
 
 ### Hardware image  
-![hardware-image](https://github.com/user-attachments/assets/d70ff279-6f3f-4aad-9ca6-879dea33a8e6)  
+ 
+<img src="https://github.com/user-attachments/assets/d70ff279-6f3f-4aad-9ca6-879dea33a8e6" width="600" height="400" />
 
 ### LCD Functionality Verification
             In order to verify if the LCD screen is functioning properly, I uploaded a test code. After compiling and uploading the code, the LCD screen displays the '2048' text. This confirms that the LCD is properly connected and the SPI protocol is working correctly.  
             
-![lcd-verify](https://github.com/user-attachments/assets/0b2ececa-e535-41be-a3f6-5aeb313a654b)
+<img src="https://github.com/user-attachments/assets/0b2ececa-e535-41be-a3f6-5aeb313a654b" width="600" height="400" />
 
 ### Joystick Functionality Verification
             In order to verify if the LCD screen is functioning properly, I uploaded a test code. After compiling and uploading the code, I used the Serial Monitor to check if the X and Y coordinates change based on the joystick movement (N, W, S, E). The X, Y coordinate pair changes correctly according to the movement, indicating that the joystick is working properly. In the image, the first value represents the coordinates when the joystick is not being moved, while the subsequent values correspond to the N, W, S, E movements.  
@@ -136,6 +138,6 @@
 ## Bibliography  
 [Preferences.h](https://components101.com/modules/joystick-module)  
 [TFT_eSPI.h library](https://github.com/Bodmer/TFT_eSPI)  
-[LCD information](http://www.lcdwiki.com/3.5inch_SPI_Module_ILI9488_SKU:MSP3520)
-[ESP32 information](https://www.sudo.is/docs/esphome/boards/esp32nodemcu/)
-[Joystick and esp32](https://esp32io.com/tutorials/esp32-joystick)
+[LCD information](http://www.lcdwiki.com/3.5inch_SPI_Module_ILI9488_SKU:MSP3520)  
+[ESP32 information](https://www.sudo.is/docs/esphome/boards/esp32nodemcu/)  
+[Joystick and esp32](https://esp32io.com/tutorials/esp32-joystick)  
