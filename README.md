@@ -279,20 +279,50 @@ The choice.hpp and choice.cpp files are responsible for handling aspects related
 The main file is responsible for handling aspects of the game state. If the game is on, the tiles can move. If the game is over, the player can be saved, and an option can be chosen.
 
 * void IRAM_ATTR pressButton() function that handles the interrupt for the joystick’s button  
+### Examples of functionalities   
+#### Menu
+<img src="https://github.com/user-attachments/assets/68926873-d7b8-406e-803e-68f7197b7559" width="400" height="600" />     
+
+#### Leaderboard
+<img src="https://github.com/user-attachments/assets/3c42681a-442e-4d8d-8fc2-d8d0f18ba761" width="400" height="600" />   
+
+#### Tiles - Slide left + random tile
+<img src="https://github.com/user-attachments/assets/2dd86019-0752-4ac3-ac33-ac33cc07415c" width="600" height="400" />  
+
+#### Game over
+
+<img src="https://github.com/user-attachments/assets/bd832670-554e-4a11-811a-430370f929f8" width="400" height="600" /> 
+
+#### Win
+
+<img src="https://github.com/user-attachments/assets/d63e5aab-5709-46a1-8023-7b520eb9426d" width="400" height="600" /> 
+
+#### User input
+<img src="https://github.com/user-attachments/assets/74cc1025-5629-4848-a984-1122c67f79cd" width="400" height="600" /> 
+
+### Video
+
+[![image](https://github.com/user-attachments/assets/33286666-0197-4a55-b100-6917e71f0fe0)](https://youtu.be/rahU1v4jxpo)
 
 ## Final Results  
+The game is fully functional and ready to be presented. Players can view the leaderboard, start a new game, undo the last grid state, and save their name and score.
 
 ## Conclusions  
+Developing the game was an interesting and engaging process. Implementing the basic functionalities, such as sliding the tiles across the grid, displaying the grid and tiles on the LCD, and adding the undo function, was relatively easy. However, ensuring a smooth and intuitive game flow posed some challenges.
+
+For example, I wanted to allow the player to undo a move and re-enter the game even after the game was over (when no more moves or merges were possible). Additionally, I had to ensure that when the player first reached the 2048 tile, the "YOU WIN!" message was displayed. Furthermore, if the player chose to undo the move, the "YOU WIN!" message would be shown again the next time they achieved the 2048 tile for the first time.
 
 ## Source Code  
-
+View the src folder.
 ## Journal  
 * 26.11.2024 Project decision  
 *  1.12.2024 Creating a repository for the project on GitHub
 *  9.12.2024 Finished the hardware part of the project
 *  14.12.2024 Started writing the code for the game.
 *  16.12.2024 Update the GitHub repository with all the hardware information.
-  
+*  03.01.2025 Finished the software part
+*  07.01.2025 Update the GitHub repository with information about the code
+*  08.01.2025 Update the GitHub repository with images of the project
 ## Bibliography  
 [Preferences.h](https://components101.com/modules/joystick-module)  
 [TFT_eSPI.h library](https://github.com/Bodmer/TFT_eSPI)  
